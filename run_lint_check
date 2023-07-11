@@ -1,0 +1,5 @@
+pipenv run  bandit --recursive app
+pipenv run  flake8 app
+pipenv run  mypy app
+pipenv run  black --check --diff app
+

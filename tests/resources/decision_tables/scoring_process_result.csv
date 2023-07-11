@@ -1,0 +1,6 @@
+hard_check_passed;risk_score;all_data_collected;*;status
+=false;>-99999;=true;*;"REJECTED"
+=false;>-99999;=false;*;"REJECTED"
+=true;>-99999;=false;*;"MORE_DATA"
+=true;>10;=true;*;"APPROVED"
+=false;<=10;=true;*;"REJECTED"
