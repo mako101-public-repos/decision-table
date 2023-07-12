@@ -178,7 +178,8 @@ class DecisionTable(AbstractDecisionTable):
                 try:
                     operator, value = decision_dict[ddh_key]
                 except KeyError:
-                    raise ValueError(f'Could not find column {ddh_key} in the decision table, unable to evaluate')
+                    raise ValueError(f'Could not find column {ddh_key} in decision row: {decision_dict},'
+                                     f' unable to evaluate')
                 if not operator:
                     raise ValueError(f'Decision row {decision_dict}: '
                                      f'Operator not specified for column {ddh_key}, value {value}')
