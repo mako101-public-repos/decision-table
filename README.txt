@@ -1,7 +1,3 @@
-Interview task Decision Table
-=============================
-The aim of the task is to write the evaluation of the decision table according to the following description, including that
-the solution satisfies all supplied unit tests. The solution should be well extensible and easy to read.
 
 Decision table
 --------------
